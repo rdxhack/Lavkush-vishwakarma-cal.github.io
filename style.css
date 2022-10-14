@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(196, 243, 122);
+    
+  }
+  button{
+    padding: 20px;
+    margin: 0 3px;
+    border:2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 66px;
+    background:pink;
+    
+  }
+  button:hover{
+    background:rgb(145, 244, 221);
+    width: 80px;
+   border-radius: 20%;
+   
+  }
+  .row{
+    margin: 8px 0px;
+  }
+  .row input{
+    margin: 0;
+    padding: 10px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+    width: 290px;
+    background:blue;
+    color:white
+  }
+  .row1 {
+    margin: 8px 0px;
+    width:300px;
+    border:2px solid black;
+    border-radius:10px;
+    background:black;
+  }
+  .row1 a{
+    font-size:25px;
+    font-family:fantasy;
+    margin:5px;
+    padding:2px;
+    color:red;
+    
+  }
+  a{
+    text-decoration:none;
+    text-align: center;
+  }
+  a:hover{
+    color: black;
+    text-align: center;
+  }
+  .row1:hover {
+    margin: 8px 0px;
+    width:500px;
+    border:2px solid black;
+    border-radius:10px;
+    background:rgb(246, 241, 241);
+    transition: all;
+   text-align:center;
+  }
+  /* 
+  
+  */
+  
+  .text-center{
+    text-align: center;
+     background:pink;
+  }
+   .container{
+    width:50%;
+     height:auto;
+  } 
+  .bg-red{
+    background: rgb(249, 249, 141);
+    
+  }
+  
+  .flex-col{
+    flex-direction: column;
+  }
+  .flex{
+    display: flex;
+  }
+  .m-w-20{
+    margin: auto;
+  }
+  .items-center{
+    align-items: center;
+   
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .row input{
+        margin: 0;
+        padding: 10px 0;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 25px;
+        width: 300px;
+        background:blue;
+        color:white
+      }
+      .container{
+        width:60%;
+         height:auto;
+      } 
+  }
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: rgb(193, 97, 241);
+    }
+    .row input{
+        margin: 0;
+        padding: 10px 0;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 25px;
+        width: 300px;
+        background:blue;
+        color:white
+      }
+      .container{
+        width:39%;
+         height:auto;
+      } 
+  }
+ 
